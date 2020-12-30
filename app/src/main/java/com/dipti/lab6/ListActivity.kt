@@ -11,7 +11,7 @@ class ListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_list)
         lstView = findViewById(R.id.lstView)
-
+//
         var names = intent.getSerializableExtra("data")as ArrayList<Person>
 
               val adapter = ArrayAdapter(
